@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "password",
+    "database": "node_tasks",
+    "host": "localhost",
+    "dialect": "mysql",
+    "jwt_key": "sdfkulkjsdigkjamslf;ald.asd"
+  },
+  "test": {
+    "username": "root",
+    "password": "password",
+    "database": "node_tasks",
+    "host": "localhost",
+    "dialect": "mysql",
+    "jwt_key": "sdfkulkjsdigkjamslf;ald.asd"
+  },
+  "production": {
+    "username": "root",
+    "password": "password",
+    "database": "node_tasks",
+    "host": "localhost",
+    "dialect": "mysql",
+    "jwt_key": "sdfkulkjsdigkjamslf;ald.asd"
+  }
+}
