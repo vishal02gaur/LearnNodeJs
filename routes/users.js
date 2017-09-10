@@ -37,6 +37,7 @@ router.post('/login', (req, res, next) => {
     models.users
         .findOne({where: {username: username}})
         .then(user => {
+
             if (user) {
                 const token = jwt.sign({
                     id: user.id,
